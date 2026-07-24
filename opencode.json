@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": ["profile.md"],
+  "permission": {
+    "bash": {
+      "bun run .agents/skills/*": "allow",
+      "bun --version": "allow",
+      "*": "ask"
+    }
+  }
+}
